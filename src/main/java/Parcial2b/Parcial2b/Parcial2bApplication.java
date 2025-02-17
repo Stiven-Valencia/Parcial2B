@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"Parcial2b.Parcial2b", "controller"})
+@ComponentScan(basePackages = {"Parcial2b.Parcial2b", "controller", "configuracion"})
 public class Parcial2bApplication {
 
 	public static void main(String[] args) {

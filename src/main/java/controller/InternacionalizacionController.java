@@ -17,6 +17,6 @@ public class InternacionalizacionController {
     @GetMapping("/saludo")
 
     public String obtenerSaludo(Locale locale) {
-        return messageSource.getMessage("welcome.message", null, locale);
+        return messageSource.getMessage("welcome.messages", null, locale);
     }
 }
